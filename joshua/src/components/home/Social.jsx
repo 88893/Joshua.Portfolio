@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Social = () => {
   return (
@@ -12,7 +12,7 @@ const Social = () => {
         <i class="uil uil-instagram"></i>
       </a>
       <a
-        href="https://web.whatsapp.com/"
+        href="https://wa.me/0624759819"
         className="home__social-icon"
         target={"_blank"}
         rel="noreferrer"
@@ -28,7 +28,7 @@ const Social = () => {
         <i class="uil uil-github-alt"></i>
       </a>
     </div>
-  )
-}
+  );
+};
 
 export default Social;
