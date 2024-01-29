@@ -53,6 +53,14 @@ const footer = () => {
           >
             <i class="bx bxl-github"></i>
           </a>
+          <a
+            href="https://www.linkedin.com/in/joshua-mohanlal-018960183/"
+            className="footer__social-link"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
         </div>
 
         <span className="footer__copy"></span>

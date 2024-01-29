@@ -41,7 +41,7 @@ const qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">technology</h3>
+                <h3 className="qualification__title">Engineering</h3>
                 <span className="qualification__subtitle">Life College</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i> 2020-2022

@@ -45,18 +45,21 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">06-24759819</span>
-              <a href="" className="contact__button">
+              <a href="https://wa.me/0624759819" className="contact__button">
                 Write Me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-linkedin contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">User</span>
-              <a href="" className="contact__button">
+              <h3 className="contact__card-title">Linkedin</h3>
+              <span className="contact__card-data">Joshua.M</span>
+              <a
+                href="https://www.linkedin.com/in/joshua-mohanlal-018960183/"
+                className="contact__button"
+              >
                 Write Me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -65,7 +68,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project </h3>
+          <h3 className="contact__title">Write me your message </h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">

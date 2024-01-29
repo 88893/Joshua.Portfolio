@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import MoonImg from "../../assets/moon.jpg";
+
 const Header = () => {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
